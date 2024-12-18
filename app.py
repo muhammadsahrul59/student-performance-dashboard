@@ -18,6 +18,11 @@ feature = ["Debtor", "Scholarship holder", "Tuition fees up to date"]
 
 
 # Function to preprocess input data
+st.set_page_config(
+    page_title="Prediksi Mahasiswa Dropout", page_icon="🏫", layout="wide"
+)
+
+
 def preprocess_data(df):
     processed_df = df.copy()
 
