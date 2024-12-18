@@ -44,6 +44,11 @@ Dashboard ini menampilkan berbagai visualisasi terkait performa mahasiswa yang m
 
 Kiyut Institute Student Performance Dashboard bisa diliat disini: [Tableau Public Dashboard](https://public.tableau.com/views/student-performance/KiyutInstitute?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
+### Dashboard Preview
+
+![image](https://github.com/user-attachments/assets/101ef1a8-b709-4a18-a52a-5f9441cf6e45)
+
+
 ## Menjalankan Sistem Machine Learning
 
 Untuk menjalankan machine learning prototype, ikuti langkah berikut:
@@ -59,7 +64,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Berikut adalah machine learning prototype dari Kiyut Institute : [Kiyut Institute Student Dropout Prediction App]()
+Berikut adalah Link Kiyut Institute Student Dropout Predictor : [Kiyut Institute Student Dropout Prediction App]()
 
 ## Conclusion
 
