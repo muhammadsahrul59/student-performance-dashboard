@@ -32,7 +32,7 @@ conda create --name student_performance python=3.9
 conda activate student_performance
 
 # Install necessary packages
-pip install -r requirements.txt
+pip install numpy pandas xgboost scipy plotly matplotlib seaborn jupyter sqlalchemy scikit-learn==1.2.2 joblib==1.3.1 streamlit==1.24.0
 
 # Run the Streamlit app
 streamlit run app.py
@@ -58,7 +58,7 @@ Untuk menjalankan machine learning prototype, ikuti langkah berikut:
 git clone <repository-url>
 
 # Install necessary packages
-pip install -r requirements.txt
+pip install numpy pandas xgboost scipy plotly matplotlib seaborn jupyter sqlalchemy scikit-learn==1.2.2 joblib==1.3.1 streamlit==1.24.0
 
 # Run the Streamlit app
 streamlit run app.py
