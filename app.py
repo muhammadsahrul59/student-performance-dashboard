@@ -53,33 +53,29 @@ def preprocessor(input_df):
 
 # Streamlit app
 def main():
-    col1, col2 = st.columns([1, 2])
-    with col1:
-        st.image(
-            "https://github.com/muhammadsahrul59/student-performance-dashboard/blob/main/images/logo-cute.png?raw=true",
-            width=130,
-        )
-    with col2:
-        st.header("Kiyut Institute")
-        st.header("Student Dropout Predictor")
+    st.image(
+        "https://github.com/muhammadsahrul59/student-performance-dashboard/blob/main/images/logo-cute.png?raw=true",
+        width=130,
+    )
+    st.title("Student Dropout Predictor")
 
     # Input form
-    st.subheader("Masukkan Informasi Mahasiswa:")
+    st.subheader("Input Student Information:")
 
     input_data = {}  # Dictionary to store user input data
     col1, col2 = st.columns(2)  # Split the interface into two columns
 
     with col1:
         # Collect user inputs for country and some financial indicators
-        input_data["Debtor"] = st.radio("Pilih Debtor:", ["Tidak", "Ya"])
+        input_data["Debtor"] = st.radio("Select Debtor:", ["No", "Yes"])
         input_data["Scholarship holder"] = st.radio(
-            "Pilih Scholarship holder:", ["Tidak", "Ya"]
+            "Select Scholarship holder:", ["No", "Yes"]
         )
         input_data["Tuition fees up to date"] = st.radio(
-            "Pilih Tuition fees up to date:", ["Tidak", "Ya"]
+            "Select Tuition fees up to date:", ["Yes", "No"]
         )
         input_data["Application mode"] = st.selectbox(
-            "Application mode:",
+            "Application mode",
             [
                 "2nd phase - general contingent" "International student (bachelor)",
                 "1st phase - general contingent",
@@ -102,19 +98,19 @@ def main():
         )
 
     with col2:
-        input_data["Age at enrollment"] = st.number_input("Umur", step=1)
         input_data["Curricular units 1st sem (approved)"] = st.number_input(
-            "Menyetujui Mata Kuliah Semester Pertama: ", step=1
+            "Approve First Semester Course Unit: ", step=1
         )
         input_data["Curricular units 1st sem (grade)"] = st.number_input(
-            "Nilai Semester 1: ", step=1
+            "First semester grade: ", step=1
         )
         input_data["Curricular units 2nd sem (approved)"] = st.number_input(
-            "Menyetujui Unit Mata Kuliah Semester Pertama: ", step=1
+            "Approve Second Semester Course Unit: ", step=1
         )
         input_data["Curricular units 2nd sem (grade)"] = st.number_input(
-            "Nilai Semester 2: ", step=1
+            "Second semester grade: ", step=1
         )
+        input_data["Age at enrollment"] = st.number_input("Age", step=1)
         # inputs = {}
 
         # for column in columns_to_scale:
@@ -122,7 +118,7 @@ def main():
 
     input_df = pd.DataFrame([input_data])  # Convert collected data into a DataFrame
 
-    if st.button("Prediksi"):  # When the 'Predict' button is clicked
+    if st.button("Predict"):  # When the 'Predict' button is clicked
         final_df = preprocessor(input_df)  # Preprocess the collected data
         prediction = model.predict(final_df)[0]  # Use the model to predict the outcome
 
