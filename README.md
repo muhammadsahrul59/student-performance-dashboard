@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-asdwwasdw
-=======
-# Proyek Akhir: Menyelesaikan Permasalahan Dropout Mahasiswa di Kiyut Institute
+# Proyek Akhir: Menyelesaikan Permasalahan Dropout Mahasiswa di Kiyut Institute 🏫
 
 ## Business Understanding
 
@@ -68,8 +65,6 @@ Berikut adalah machine learning prototype dari Kiyut Institute : [Kiyut Institut
 
 Dashboard ini menampilkan berbagai visualisasi terkait performa mahasiswa dengan fokus pada analisis dropout. Tingginya angka **dropout sebesar 32.55%** dari total **3,174 mahasiswa** mengindikasikan masalah serius yang perlu ditangani. Berdasarkan visualisasi, dropout tertinggi terjadi pada m**ahasiswa usia di bawah 20 tahun (392 kasus)** dan **20-29 tahun (468 kasus)**, menunjukkan bahwa mahasiswa muda lebih rentan mengalami dropout. Dari segi gender, **laki-laki** (51%) sedikit lebih mendominasi dibanding **perempuan** (49%), sedangkan dari status pernikahan, mahasiswa **single** menyumbang dropout tertinggi (860 kasus). Dropout juga paling banyak terjadi di program studi seperti **Management (kelas malam)** , **Management reguler**, dan **Nursing**, yang masing-masing mencatat lebih dari **100 kasus**.
 
-Tren ini mengarah pada perlunya perhatian khusus terhadap mahasiswa muda, program studi tertentu, serta faktor sosial seperti status pernikahan dalam upaya mengurangi angka dropout melalui intervensi yang tepat seperti dukungan akademik, konseling, dan peningkatan fasilitas belajar.
-
 ### Rekomendasi Action Items
 
 Berikut adalah rekomendasi action items yang harus diterapkan oleh Kiyut Institute agar meningkatkan lulusan dengan reputasi yang baik:
@@ -78,4 +73,3 @@ Berikut adalah rekomendasi action items yang harus diterapkan oleh Kiyut Institu
 - **Konsultasi Psikologis**: Fokus pada mahasiswa single yang berisiko mengalami dropout.
 - **Evaluasi Jurusan dengan Tingkat Dropout Tinggi**: Manajemen dan Nursing perlu evaluasi lebih mendalam.
 - **Penerapan Early Warning System (EWS)**: Identifikasi mahasiswa dengan performa rendah secara dini menggunakan model prediktif.
->>>>>>> b67b746 (first commit)
