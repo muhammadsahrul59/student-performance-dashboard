@@ -51,7 +51,7 @@ def main():
     col1, col2 = st.columns([1, 2])
     with col1:
         st.image(
-            "https://github.com/muhammadsahrul59/student-dropout-app/blob/main/images/logo-cute.png?raw=true",
+            "https://github.com/muhammadsahrul59/student-performance-dashboard/blob/main/images/logo-cute.png?raw=true",
             width=130,
         )
     with col2:
