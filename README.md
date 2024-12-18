@@ -64,7 +64,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Berikut adalah Link Kiyut Institute Student Dropout Predictor : [Kiyut Institute Student Dropout Prediction App]()
+Berikut adalah Link Kiyut Institute Student Dropout Predictor : [Kiyut Institute Student Dropout Prediction App](https://student-performance-predictor-sahrul.streamlit.app/)
 
 ## Conclusion
 
